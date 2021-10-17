@@ -18,6 +18,8 @@
 .button:hover {
   color: var(--accent-color);
 }
+
+.btn-light:hover, .btn-light:focus, .btn-light {cursor: pointer;}
 .button {
   cursor: pointer;
 }
