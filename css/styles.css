@@ -13,76 +13,25 @@
 .link {
   text-decoration: none;
 }
-
-.hero-btn:focus,
-.hero-btn:hover {
+/*----------------------------- Button--------------------------------- */
+.button:focus,
+.button:hover {
   color: var(--accent-color);
 }
 .button {
   cursor: pointer;
 }
-
-.nav-link.current {
-  color: var(--accent-color);
-}
-
-/*---------Header------------------- */
-
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-.nav-link {
+.btn-black {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--header-color);
-}
-
-.nav-link:focus,
-.nav-link:hover {
-  color: var(--accent-color);
-}
-
-.header-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
-}
-
-.header-mail {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
-}
-
-.header-tel:hover,
-.header-tel:focus {
-  color: var(--accent-color);
-}
-
-.header-mail:hover,
-.header-mail:focus {
-  color: var(--accent-color);
-}
-
-/* ---------------Hero--------------------*/
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 16px;
+  line-height: 1.63;
   text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--primary-title-color);
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+  background-color: var(--primary-title-color);
 }
 
-.hero-btn {
+.btn-light {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -91,9 +40,70 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
+  background-color:var(--accent-color);
 }
-.hero-title,
-.hero-btn {
+
+  .nav-menu .current {
+    color: var(--accent-color);
+  }
+
+  /*---------Header------------------- */
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-color);
+  }
+
+  .nav-link:focus,
+  .nav-link:hover {
+    color: var(--accent-color);
+  }
+
+  .header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+  }
+
+  .header-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+  }
+
+  .header-tel:hover,
+  .header-tel:focus {
+    color: var(--accent-color);
+  }
+
+  .header-mail:hover,
+  .header-mail:focus {
+    color: var(--accent-color);
+  }
+
+  /* ---------------Hero--------------------*/
+  .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-title-color);
+  }
+
+.hero-title {
   background-color: #2f303a;
 }
 
@@ -189,4 +199,26 @@ body {
 
 .footer {
   background-color: #2f303a;
+}
+
+
+/* --------------------------portfolio-------------------------- */
+
+/* ------------------main-menu---------------------------------- */
+
+.menu-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;  
+  color: var(--second-title-color);
+}
+
+.menu-subtitle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;  
+  color: var(--second-text-color);
+
 }
