@@ -5,6 +5,7 @@
   --primary-title-color: #ffffff;
   --second-title-color: #212121;
   --accent-color: #2196f3;
+  --backgraund-hero-color: #2f303a;
 }
 
 .list {
@@ -49,10 +50,6 @@
   background-color: var(--accent-color);
 }
 
-.nav-menu .current {
-  color: var(--accent-color);
-}
-
 /*---------Header------------------- */
 
 .logo {
@@ -73,6 +70,10 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+.nav-menu .current {
+  color: var(--accent-color);
 }
 
 .nav-link {
@@ -115,6 +116,13 @@ body {
 }
 
 /* ---------------Hero--------------------*/
+
+.hero-title {
+  background-color: var(--backgraund-hero-color);
+}
+
+/* ------------------after-hero------------------------- */
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -123,10 +131,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-title-color);
-}
-
-.hero-title {
-  background-color: #2f303a;
 }
 
 .pre-title {
@@ -146,7 +150,7 @@ body {
   color: var(--second-text-color);
 }
 
-/*--------------------------section--------------------------------*/
+/*--------------------------section vissualy--------------------------------*/
 .visually-title {
   font-weight: bold;
   font-size: 36px;
