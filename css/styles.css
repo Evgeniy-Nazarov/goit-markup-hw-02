@@ -224,7 +224,7 @@ body {
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--backgraund-hero-color);
 }
 
 /* --------------------------portfolio-------------------------- */
